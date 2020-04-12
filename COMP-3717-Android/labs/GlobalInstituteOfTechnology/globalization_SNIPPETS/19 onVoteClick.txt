@@ -1,0 +1,4 @@
+public void onVoteClick(View v) {
+    VoteDialogFragment dialog = new VoteDialogFragment();
+    dialog.show(getSupportFragmentManager(), "NoticeDialogFragment");
+}

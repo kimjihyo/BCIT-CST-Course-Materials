@@ -1,0 +1,14 @@
+{
+  "students": [
+    { "id" : "1",  "firstName": "Ivette", "lastName": "Trdeau",  "school": "Exploitation minière" },
+    { "id" : "2",  "firstName": "Antoine", "lastName": "Destin", "school": "Entreprise" },
+    { "id" : "3",  "firstName": "Luc", "lastName": "Richaud", "school": "L'informatique" },
+    { "id" : "4",  "firstName": "Marise", "lastName": "Buchard", "school": "Médicament" },
+    { "id" : "5",  "firstName": "Marie", "lastName": "Jose", "school": "Santé" },
+    { "id" : "6",  "firstName": "Adeline", "lastName": "Bordeaux", "school": "Allaitement" },
+    { "id" : "7",  "firstName": "Dorothée", "lastName": "Carbonneau", "school": "Médicament" },
+    { "id" : "8",  "firstName": "Emile", "lastName": "Dansereau", "school": "Allaitement"  },
+    { "id" : "9",  "firstName": "Dominique", "lastName": "Etienne", "school": "Entreprise" },
+    { "id" : "10", "firstName": "Elodie", "lastName": "Arsenault", "school": "L'informatique" }
+  ]
+}

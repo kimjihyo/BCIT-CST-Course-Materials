@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/whichconstructor.dir/whichconstructor.cpp.o  -o whichconstructor.exe -Wl,--out-implib,libwhichconstructor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

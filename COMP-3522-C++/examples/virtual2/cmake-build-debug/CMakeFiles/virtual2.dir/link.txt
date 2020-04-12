@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/virtual2.dir/virtual2.cpp.o  -o virtual2.exe -Wl,--out-implib,libvirtual2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

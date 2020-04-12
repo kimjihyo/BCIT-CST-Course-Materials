@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/Facade.dir/main.cpp.o  -o Facade.exe -Wl,--out-implib,libFacade.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

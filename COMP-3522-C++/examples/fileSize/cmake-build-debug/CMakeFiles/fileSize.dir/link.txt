@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/fileSize.dir/main.cpp.o  -o fileSize.exe -Wl,--out-implib,libfileSize.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

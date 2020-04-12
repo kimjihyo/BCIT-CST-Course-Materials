@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/oop_multi0.dir/oop_multi0.cpp.o  -o oop_multi0.exe -Wl,--out-implib,liboop_multi0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

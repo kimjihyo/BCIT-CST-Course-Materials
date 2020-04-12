@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/chira/Desktop/BCIT/Term 3/comp_3522/Week 1/Week2Day1Sample/copyFile/main.cpp
+iostream
+-
+fstream
+-
+

@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/oop_constructors.dir/oop_constructors.cpp.o  -o oop_constructors.exe -Wl,--out-implib,liboop_constructors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

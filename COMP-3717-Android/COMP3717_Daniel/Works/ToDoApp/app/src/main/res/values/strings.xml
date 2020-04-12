@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+
+    <string name="hintTask">Task</string>
+    <string name="hintWho">Who</string>
+    <string name="hintDate">Due</string>
+    <string name="btnAddTask">Add task</string>
+    <string name="enterNewTask">Enter New task</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+
+    <boolean-array name="Done">
+        <item>true</item>
+        <item>false</item>
+    </boolean-array>
+</resources>

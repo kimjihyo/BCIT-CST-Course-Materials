@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab08</string>
+    <string name="internet_email_account">Compte de messagerie Internet</string>
+    <string name="account_name">Nom du compte</string>
+    <string name="your_name">Votre nom</string>
+    <string name="incoming_email_server">Serveur de messagerie entrant</string>
+    <string name="well_send_you_message">Nous enverrons vos messages en utilisant ce nom</string>
+    <string name="cancel">Annuler</string>
+    <string name="sign_in">se connecter</string>
+    <string name="has_been_setup">Votre compte de messagerie a été configuré.</string>
+    <string name="close">proche</string>
+</resources>

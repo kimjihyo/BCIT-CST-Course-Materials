@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/templateFriends.dir/main.cpp.o  -o templateFriends.exe -Wl,--out-implib,libtemplateFriends.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

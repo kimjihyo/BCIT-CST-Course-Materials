@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Global Math Game</string>
+    <string name="startGame">start game</string>
+    <string name="questionLabel">Question </string>
+    <string name="answersLabel">Choices:</string>
+    <string name="correct">Correct!</string>
+    <string name="wrong">Wrong!</string>
+    <string name="skip">skip</string>
+    <string name="rest" translatable="false">rest</string>
+    <string name="reset">reset</string>
+    <string name="channel_name" translatable="false">channelName</string>
+    <string name="channel_description" translatable="false">channelDescription</string>
+    <string name="yourScoreIs">Your score is</string>
+    <string name="startJavaGame">start java game</string>
+    <string name="startKotlinGame">start kotlin game</string>
+</resources>

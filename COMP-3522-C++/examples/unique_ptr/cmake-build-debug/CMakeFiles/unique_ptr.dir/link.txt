@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/unique_ptr.dir/unique_ptr.cpp.o  -o unique_ptr.exe -Wl,--out-implib,libunique_ptr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

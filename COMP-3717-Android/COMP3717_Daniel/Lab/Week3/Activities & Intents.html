@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div style="font-size: large; font-family: arial;">
+<p><span style="font-size: 14pt;">Create an Android app that has 4 buttons:</span></p>
+<table style="width: 100%; font-size: large;" border="1">
+<thead>
+<tr>
+<th style="width: 9.97352%;"><span style="font-size: 14pt;">Button</span></th>
+<th style="width: 79.2586%;"><span style="font-size: 14pt;">Functionality</span></th>
+<th style="width: 9.88526%;"><span style="font-size: 14pt;">Mark</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 9.97352%;"><span style="font-size: 14pt;">Change Color Button</span></td>
+<td style="width: 79.2586%;"><span style="font-size: 14pt;">When the <em>Change Color</em> button is clicked, it changes the current activity background to a <strong>randomly</strong> selected color</span></td>
+<td style="width: 9.88526%;"><span style="font-size: 14pt;">2 Marks</span></td>
+</tr>
+<tr>
+<td style="width: 9.97352%;"><span style="font-size: 14pt;">Speak&nbsp; Button </span></td>
+<td style="width: 79.2586%;"><span style="font-size: 14pt;">When the <em>Speak</em> button is clicked, it opens a new activity named <em>SpeakActivity</em>. On the&nbsp;<em>SpeakActivity</em> there are three controls: EditText, Button (<em>Speak</em>) and Button (<em>Back</em>). The <em>Speak</em> button uses the&nbsp;<em>Text to Speech service</em> to say the text entered in&nbsp;<em>EditText</em>. The&nbsp;<em>Back</em> button returns the user to the main/parent activity.</span></td>
+<td style="width: 9.88526%;"><span style="font-size: 14pt;">2 Marks</span></td>
+</tr>
+<tr>
+<td style="width: 9.97352%;"><span style="font-size: 14pt;">API Version&nbsp; Button </span></td>
+<td style="width: 79.2586%;">
+<p><span style="font-size: 14pt;">When the <em>API Version </em>button is clicked, display the <em>Android API Version</em> of the phone on a <em>Toast</em> in the current activity.</span></p>
+<p><span style="font-size: 14pt;">Tip: Use this code to determine the Android API Version of the device:</span></p>
+<p><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">String manufacturer = android.os.Build.MANUFACTURER;</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">String model = android.os.Build.MODEL;</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">int version = android.os.Build.VERSION.SDK_INT;</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">String versionRelease = android.os.Build.VERSION.RELEASE;</span></p>
+<p><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">String messageText = "manufacturer " + manufacturer</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">+ " \n model " + model</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">+ " \n version " + version</span><br /><span style="font-family: 'courier new', courier, sans-serif; font-size: 14pt;">+ " \n versionRelease " + versionRelease;</span></p>
+</td>
+<td style="width: 9.88526%;"><span style="font-size: 14pt;">2 Marks</span></td>
+</tr>
+<tr>
+<td valign="top" style="width: 9.97352%;"><span style="font-size: 14pt;">Serial Number Button </span></td>
+<td style="width: 79.2586%;"><span style="font-size: 14pt;">When the <em>Serial Number</em> button is clicked, send the serial number of your device as an implicit intent&nbsp; to another app that knows how to consume text.</span>
+<p><span style="font-size: 14pt;">Tip: You can get the <em>Device ID</em> with this code:</span></p>
+<p><span style="font-size: 14pt; font-family: 'courier new', courier, sans-serif;">String deviceId = Settings.System.getString(getContentResolver(), Settings.System.ANDROID_ID);</span></p>
+</td>
+<td style="width: 9.88526%;"><span style="font-size: 14pt;">2 Marks</span></td>
+</tr>
+<tr>
+<td style="width: 9.97352%;">Layout</td>
+<td style="width: 79.2586%;">Best practices &amp; layout
+<ul>
+<li>all your screens look professional</li>
+<li>all variables have meaningful names</li>
+<li>all static strings are placed in the <em>strings.xml</em> file</li>
+</ul>
+</td>
+<td style="width: 9.88526%;">2 Marks</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14pt;">This challenge is due at the end of the lab period. You will get a mark once you have shown the solution to your instructor. </span></p>
+<p><span style="font-size: 14pt;">Prove that your app works either in an emulator or on a physical Android device.</span></p>
+</div>
+</body>
+</html>

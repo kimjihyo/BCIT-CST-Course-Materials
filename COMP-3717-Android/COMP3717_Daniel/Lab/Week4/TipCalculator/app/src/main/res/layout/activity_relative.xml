@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <!-- The bill amount -->
+
+    <Button
+        android:id="@+id/btnPercentDown"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/percentTextView"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/percentTextView"
+        android:text="@string/decrease"
+        android:textSize="20sp" />
+
+    <!-- The tip percent -->
+
+    <Button
+        android:id="@+id/btnPercentUp"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/btnPercentDown"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_toEndOf="@+id/btnPercentDown"
+        android:text="@string/increase"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/billAmountEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/billAmountLabel"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toEndOf="@+id/billAmountLabel"
+        android:ems="8"
+        android:inputType="numberDecimal"
+        android:text="@string/bill_amount"
+        android:textSize="20sp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/billAmountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="11dp"
+        android:padding="10dp"
+        android:text="@string/bill_amount_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/percentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:padding="10dp"
+        android:text="@string/tip_percent_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- the tip amount -->
+
+    <!-- the total -->
+
+    <TextView
+        android:id="@+id/percentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/percentLabel"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@+id/percentLabel"
+        android:padding="5dp"
+        android:text="@string/tip_percent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textviewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textviewTip"
+        android:layout_alignBottom="@+id/totalLabel"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="4dp"
+        android:padding="5dp"
+        android:text="@string/tip_amount"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/totalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipLabel"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="68dp"
+        android:padding="10dp"
+        android:text="@string/total_amount_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/percentTextView"
+        android:layout_alignBottom="@+id/tipLabel"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toEndOf="@+id/tipLabel"
+        android:padding="5dp"
+        android:text="@string/total_amount"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tipLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/percentLabel"
+        android:layout_marginTop="39dp"
+        android:padding="10dp"
+        android:text="@string/tip_amount_label"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

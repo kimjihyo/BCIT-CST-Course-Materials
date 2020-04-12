@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/polymorphism.dir/polymorphism.cpp.o  -o polymorphism.exe -Wl,--out-implib,libpolymorphism.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

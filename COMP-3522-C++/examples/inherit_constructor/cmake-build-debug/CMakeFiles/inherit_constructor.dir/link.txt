@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/inherit_constructor.dir/inherit_constructor.cpp.o  -o inherit_constructor.exe -Wl,--out-implib,libinherit_constructor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

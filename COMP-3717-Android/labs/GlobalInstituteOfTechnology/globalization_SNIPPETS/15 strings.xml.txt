@@ -1,0 +1,4 @@
+<string name="vote_btn_msg">Vote for your favorite language.</string>
+<string name="dialog_favorite_language">My favorite language is</string>
+<string name="dialog_vote_btn">Vote</string>
+<string name="dialog_cancel_btn">Cancel</string>

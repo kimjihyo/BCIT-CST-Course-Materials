@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3512Winter/Week10/Day2/Decorator/main.cpp
+iostream
+-
+pizza.hpp
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3512Winter/Week10/Day2/Decorator/pizza.hpp
+toppings.hpp
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3512Winter/Week10/Day2/Decorator/toppings.hpp
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3512Winter/Week10/Day2/Decorator/pizza.hpp
+iostream
+-
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3512Winter/Week10/Day2/Decorator/toppings.hpp
+iostream
+-
+

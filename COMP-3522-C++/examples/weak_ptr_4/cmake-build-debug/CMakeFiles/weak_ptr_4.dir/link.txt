@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/weak_ptr_4.dir/weak_ptr_4.cpp.o  -o weak_ptr_4.exe -Wl,--out-implib,libweak_ptr_4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

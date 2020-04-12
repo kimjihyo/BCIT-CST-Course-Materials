@@ -1,0 +1,4 @@
+C:\Users\chira\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/chira/Desktop/BCIT/Term 3/comp_3522/Week 1/Week2Day1Sample/random_double"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/chira/Desktop/BCIT/Term 3/comp_3522/Week 1/Week2Day1Sample/random_double/cmake-build-debug

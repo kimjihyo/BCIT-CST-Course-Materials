@@ -1,0 +1,36 @@
+week1(Module1)
+page 2.15, 2.16, 2.19(), 2.21(end-to-end means no change on the data, 
+hop-to-hop means there could be a change on the data)
+
+week3
+Distortion only happens in a composite signal
+Slide9: result should be between 9dB and 12dB
+(1/2 = -3dB, 1/4 = -6dB, 1/8 = -9dB, 2 = +3dB, 4 = +6dB...)
+
+week4(Module3)
+PCM need to know for quiz, midterm, and final
+
+week5(Module4 & 5(1-12))
+
+week6(Module6)
+slide8 UTP performance
+slide11
+
+week7(Module7)
+need to know how to draw slide 10
+
+final
+2 hours, starts at Sat 2pm
+calculator
+15 - 20 MC, 3 - 5 short answers
+70% after midterm, 30% before midterm
+
+subnets division
+Module10, slide 17 
+          slide 19 MC
+	  slide 20 throughtput
+	  slide 30 checksum
+	  slide 33 fragments (could be up to 3 levels)
+Module11, slide 29,30,38
+	  slide 45 - 48 are not included in the final
+

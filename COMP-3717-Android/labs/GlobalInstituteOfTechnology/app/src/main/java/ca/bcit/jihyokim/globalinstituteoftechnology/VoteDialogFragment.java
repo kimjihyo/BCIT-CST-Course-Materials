@@ -1,0 +1,36 @@
+package ca.bcit.jihyokim.globalinstituteoftechnology;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.os.Bundle;
+
+import androidx.fragment.app.DialogFragment;
+
+public class VoteDialogFragment extends DialogFragment {
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        // Use the Builder class for convenient dialog construction
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+        String msg = "";
+        msg += getResources().getString(R.string.dialog_favorite_language);
+        msg += " ";
+        msg += getResources().getConfiguration().locale.getDisplayLanguage();
+        msg += ".";
+
+        builder.setMessage(msg)
+                .setPositiveButton(R.string.dialog_vote_btn, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // user cast your vote
+                    }
+                })
+                .setNegativeButton(R.string.dialog_cancel_btn, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // user cancelled the dialog
+                    }
+                });
+        // Create the AlertDialog object and return it
+        return builder.create();
+    }
+}

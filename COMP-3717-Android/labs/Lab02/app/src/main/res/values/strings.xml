@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab02</string>
+    <string name="change_color_button">Change Color Button</string>
+    <string name="speak_button">Speak Button</string>
+    <string name="api_version_button">API Version Button</string>
+    <string name="serial_number_button">Serial Number Button</string>
+    <string name="speak_activity_speak_button">Speak</string>
+    <string name="speak_activity_back_button">Back</string>
+    <string name="speak_activity_enter_text">Enter Text</string>
+</resources>

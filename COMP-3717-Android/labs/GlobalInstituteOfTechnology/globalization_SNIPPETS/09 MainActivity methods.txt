@@ -1,0 +1,32 @@
+public void init() {
+  listView = findViewById(R.id.listView);
+  studentAdapter = new StudentAdapter(MainActivity.this, getStudentsData());
+  listView.setAdapter(studentAdapter);
+}
+
+/* Convert JSON String to BaseStudent Model via GSON */
+public List<Student> getStudentsData() {
+  String jsonString = getAssetsJSON(JSON_FILE);
+  Log.d("MainActivity", "Json: " + jsonString);
+  Gson gson = new Gson();
+  BaseStudent baseStudent = gson.fromJson(jsonString, BaseStudent.class);
+  return  baseStudent.getStudents();
+}
+
+/* Get File in Assets Folder */
+public String getAssetsJSON(String fileName) {
+  String json = null;
+  try {
+    InputStream inputStream = this.getAssets().open(fileName);
+    int size = inputStream.available();
+    byte[] buffer = new byte[size];
+    inputStream.read(buffer);
+    inputStream.close();
+    json = new String(buffer, "UTF-8");
+
+  } catch (IOException e) {
+    e.printStackTrace();
+  }
+
+  return json;
+}

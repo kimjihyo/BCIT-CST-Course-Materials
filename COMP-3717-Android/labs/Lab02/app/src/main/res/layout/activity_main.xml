@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/change_color_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_color_button"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/speak_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speak_button"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/api_version_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/api_version_button"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <Button
+        android:id="@+id/serial_number_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/serial_number_button"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="477dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/weak_ptr_circle.dir/main.cpp.o  -o weak_ptr_circle.exe -Wl,--out-implib,libweak_ptr_circle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

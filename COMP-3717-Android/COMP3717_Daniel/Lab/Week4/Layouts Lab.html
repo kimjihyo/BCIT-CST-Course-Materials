@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Download &amp; extract&nbsp;<em>TipCalculator.zip</em>&nbsp;in a working directory. Load the&nbsp;<em>Tip Calculator</em> app into <em>Android Studio</em>. When you run the application you will notice there are five buttons on the main activity, namely:</p>
+<ul>
+<li>Constraint Layout</li>
+<li>Linear Layout</li>
+<li>Relative Layout</li>
+<li>Grid Layout</li>
+<li>Table Layout</li>
+</ul>
+<p>The only button that is somewhat working is "Constraint Layout".</p>
+<ul>
+<li>Click on the "Constraint Layout" button and view the <em>ConstraintActivity</em> UI</li>
+<li>Add any amount to&nbsp;<em>Bill Amount</em>&nbsp;then hit <em>Enter</em>. A 15% tip is automatically added to <em>Bill Amount</em>.&nbsp;</li>
+<li>Click on - or + to decrease or increase tip percentage respectively</li>
+</ul>
+<p>PROBLEM: If you rotate the phone, all the values are lost.</p>
+<h3>Your mission</h3>
+<p>1) Fix problem with rotation so that information is not lost.</p>
+<p>2) Get all the other buttons on <em>activity_main.xml</em> working by implementing the same UI as <em>ConstraintActivity</em> using <em>Linear</em>, <em>Relative</em>, <em>Grid</em> and <em>Table</em> layouts. For all additional layouts, it is necessary for the tip calculator to behave properly and that the UI looks very similar to the <em>ConstraintActivity</em>. Also, make sure that UI adjusts itself appropriately in portrait and landscape modes.</p>
+<h3>Marking Guide:</h3>
+<table border="1">
+<tbody>
+<tr>
+<td>Fix rotation problem</td>
+<td>4 marks</td>
+</tr>
+<tr>
+<td>Linear</td>
+<td>1.5 mark</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>1.5 mark</td>
+</tr>
+<tr>
+<td>Grid</td>
+<td>1.5 mark</td>
+</tr>
+<tr>
+<td>Table</td>
+<td>1.5 mark</td>
+</tr>
+<tr>
+<td><strong>T O T A L</strong></td>
+<td><strong>10 marks</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Note:</h3>
+<p>In Windows, after you download the ZIP file, you may have to do the following:</p>
+<ul>
+<li>Right-click &gt;&gt; Properties &gt;&gt; Unblock &gt;&gt; Apply</li>
+</ul>
+<p>After you load the app into Android Studio:</p>
+<ul>
+<li>Build &gt;&gt; Clean Project</li>
+<li>Build &gt;&gt; Build APK</li>
+</ul>
+<h2>Frequently Asked Questions</h2>
+<h3>I am not clear about the requirements for this lab. Does the UI for other layouts have to be exactly the same like the constraint layout?</h3>
+<p><block>The UI must look very similar to ConstraintLayout. </block></p>
+<h3>Any hint on rotation issue?</h3>
+<p><block>android:configChanges="orientation|keyboardHidden|screenSize" </block></p>
+</body>
+</html>

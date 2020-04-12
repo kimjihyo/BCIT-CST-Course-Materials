@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/TypeId.dir/main.cpp.o  -o TypeId.exe -Wl,--out-implib,libTypeId.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

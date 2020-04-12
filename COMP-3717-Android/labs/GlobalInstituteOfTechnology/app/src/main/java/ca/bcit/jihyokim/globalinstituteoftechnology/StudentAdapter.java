@@ -1,0 +1,55 @@
+package ca.bcit.jihyokim.globalinstituteoftechnology;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+import java.util.List;
+
+public class StudentAdapter extends BaseAdapter {
+    private Context context;
+    private List<Student> dataList;
+    private TextView tvId;
+    private TextView tvFullName;
+    private TextView tvSchool;
+    private View vi;
+    private static LayoutInflater inflater = null;
+
+    public StudentAdapter(Context context, List<Student> dataList){
+        this.context = context;
+        this.dataList = dataList;
+        inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    @Override
+    public int getCount() { return dataList.size(); }
+
+    @Override
+    public Object getItem(int i) { return i; }
+
+    @Override
+    public long getItemId(int i) { return i; }
+
+    @Override
+    public View getView(int position, View view, ViewGroup viewGroup) {
+        //Populate the Listview
+        final int pos = position;
+        Student stu = dataList.get(pos);
+
+        View vi = inflater.inflate(R.layout.list_item_student, viewGroup, false);
+        tvId = vi.findViewById(R.id.tvId);
+        tvFullName = vi.findViewById(R.id.tvFullName);
+        tvSchool = vi.findViewById(R.id.tvSchool);
+
+        String full = String.format("%s %s", stu.getFirstName(), stu.getLastName());
+
+        tvId.setText(String.valueOf(stu.getId()));
+        tvFullName.setText(full);
+        tvSchool.setText(stu.getSchool());
+
+        return vi;
+    }
+}

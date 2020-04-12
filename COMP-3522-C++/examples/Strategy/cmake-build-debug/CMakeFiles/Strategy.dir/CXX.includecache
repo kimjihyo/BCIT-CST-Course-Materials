@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/Behavior.hpp
+iostream
+-
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/Fighter.hpp
+Behavior.hpp
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/Behavior.hpp
+iostream
+-
+
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/main.cpp
+iostream
+-
+Fighter.hpp
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/Fighter.hpp
+Behavior.hpp
+/cygdrive/c/Users/A00257049/CLionProjects/COMP3522Fall2019/Week11/Day2/Strategy/Behavior.hpp
+

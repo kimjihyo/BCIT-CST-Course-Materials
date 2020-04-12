@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/CopySwap.dir/main.cpp.o CMakeFiles/CopySwap.dir/Example.cpp.o  -o CopySwap.exe -Wl,--out-implib,libCopySwap.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

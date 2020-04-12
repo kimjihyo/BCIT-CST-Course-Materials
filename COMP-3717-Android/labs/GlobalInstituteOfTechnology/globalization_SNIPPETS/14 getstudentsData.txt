@@ -1,0 +1,2 @@
+String filename = getResources().getString(R.string.json_file_name);
+String jsonString = getAssetsJSON(filename);

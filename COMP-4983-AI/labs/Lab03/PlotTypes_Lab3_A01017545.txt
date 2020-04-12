@@ -1,0 +1,35 @@
+I have divided features into two groups: qualitative data and quantitative data.
+
+The qualitative data include 'make', 'engine-type', 'fuel-type', 'symboling', 'body-style', 'engine-location',
+'fuel-system' and 'drive-wheels'.
+
+The quantitative data include 'length', 'width', 'height', 'curb-weight', 'compression-ratio', 'horsepower', 'peak-rpm',
+ 'engine-size', 'bore', 'stroke', 'city-mpg', 'highway-mpg' and 'wheel-base'.
+
+For the feature, Price, I have created two plots:
+- Car Price Distribution Plot
+- Car Price Spread Plot
+
+Car Price Distribution Plot is a histogram where x-axis is price and y-axis is the number of automobiles
+Car Price Spread Plot is a box plot where y-axis is price.
+
+For all the qualitative data, I used scatter diagram, histogram, and a bar chart.
+The scatter diagrams are for price distribution by feature. (x-axis for the feature, y-axis for the price, and the title
+follows this format, "Price vs. X feature")
+The histograms are for the number of automobiles by feature. (x-axis for the feature, y-axis for the number of automobiles,
+and the title follows this format, "Number of Cars vs. X feature")
+The bar charts are for average price by feature. (x-axis for the feature, y-axis for the average price, and the title
+follows this format, "Average Price vs. X feature")
+
+For all the quantitative data, I used scatter diagram, which is for price distribution by feature (x-axis for the feature,
+y-axis for the prices, and the title follows this format "Price vs. X feature")
+
+The plot type that provides the most insight to the data for each feature is scatter plot.
+This is because it clearly shows correlation between two x-axis variable and y-axis variable.
+For example, in the "Price vs. width" scatter diagram, the diagram shows positive correlation
+between price and car width, while in the "Price vs. city-mpg" and "Price vs. highway-mpg" diagrams show
+negative correlation between price and the two MPGs
+
+The real-valued feature that I expect to be the most suited for use in a linear regression model to
+predict the price of an automobile is engine-size. This is because according to "Price vs. engine-size"
+diagram, the correlation between price and engine-size seems the most noticeable among other features.

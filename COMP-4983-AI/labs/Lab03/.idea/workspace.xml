@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9401022-42b1-42e4-93e5-292b98575ab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataVisualization_Lab3_A01017545.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataVisualization_Lab3_A01017545.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1WsWrvvRx73V1dqzhbwdU0gXsNR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.AutomobilePricePred_A01017545">
+    <configuration name="AutomobilePricePred_A01017545" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab03" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutomobilePricePred_A01017545.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataVisualization_Lab3_A01017545" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab03" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataVisualization_Lab3_A01017545.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AutomobilePricePred_A01017545" />
+        <item itemvalue="Python.DataVisualization_Lab3_A01017545" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9401022-42b1-42e4-93e5-292b98575ab3" name="Default Changelist" comment="" />
+      <created>1579938985155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579938985155</updated>
+      <workItem from="1579938987689" duration="544000" />
+      <workItem from="1579976568993" duration="3349000" />
+      <workItem from="1579989358390" duration="13301000" />
+      <workItem from="1580008875371" duration="3589000" />
+      <workItem from="1580179986896" duration="3814000" />
+      <workItem from="1580242856032" duration="233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom" timestamp="1580245919402">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1580245919402" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center" timestamp="1580245919401">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1580245919401" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left" timestamp="1580245919400">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1580245919400" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right" timestamp="1580245919401">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1580245919401" />
+    <state x="554" y="195" width="683" height="729" key="find.popup" timestamp="1580001829658">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="554" y="195" width="683" height="729" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1580001829658" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1579997442975">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1579997442975" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab03$AutomobilePricePred.coverage" NAME="AutomobilePricePred Coverage Results" MODIFIED="1580012057013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab03$DataVisualization_Lab3_A01017545.coverage" NAME="DataVisualization_Lab3_A01017545 Coverage Results" MODIFIED="1580183839003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab03$DataVisualization_Lab3.coverage" NAME="DataVisualization_Lab3 Coverage Results" MODIFIED="1580012301261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Lab03$AutomobilePricePred_A01017545.coverage" NAME="AutomobilePricePred_A01017545 Coverage Results" MODIFIED="1580242865430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

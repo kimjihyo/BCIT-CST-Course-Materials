@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Institut mondial de technologie</string>
+    <string name="json_file_name">students-fr.json</string>
+    <string name="vote_btn_msg">Votez pour votre langue préférée.</string>
+    <string name="dialog_favorite_language">Ma langue préférée est</string>
+    <string name="dialog_vote_btn">Votez</string>
+    <string name="dialog_cancel_btn">Annuler</string>
+</resources>

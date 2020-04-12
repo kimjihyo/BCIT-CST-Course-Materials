@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/oop_abstract.dir/oop_abstract.cpp.o  -o oop_abstract.exe -Wl,--out-implib,liboop_abstract.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

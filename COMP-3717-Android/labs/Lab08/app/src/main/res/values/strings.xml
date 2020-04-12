@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab08</string>
+    <string name="internet_email_account">Internet Email Account</string>
+    <string name="account_name">Account name</string>
+    <string name="your_name">Your Name</string>
+    <string name="incoming_email_server">Incoming email server</string>
+    <string name="well_send_you_message">We will send your messages using this name</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_in">Sign in</string>
+    <string name="has_been_setup">Your email account has been setup.</string>
+    <string name="close">Close</string>
+</resources>

@@ -1,0 +1,3 @@
+private final static String JSON_FILE = "students.json";
+private StudentAdapter studentAdapter;
+private ListView listView;
